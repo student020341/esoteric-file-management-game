@@ -1,0 +1,13 @@
+Welcome to the world of esoteric file management game. If you would like to read files entirely within the terminal instead of opening them in a text editor,
+you can read the contents of files with commands. Here are a few
+
+cat filename - print the contents of filename to the terminal
+head filename - print the beginning few lines of filename to the terminal
+tail filename - print the last few lines of filename to the terminal
+
+less filename - for reading larger files, you can use less. This will give you an interactive window where you can use j,k,u,d to navigate up and down the file. 
+    when you're done reading the file, press q to close less. If this doesn't close less, try hitting escape a few times and try q again.
+    inside less, you can use / to search. To find 'hello' inside a file, you could type /hello. n and shift+n will jump between results of that search. 
+
+for more information on these commands or any command, use the manual command 'man', for example 'man less'
+    it has similar navigation to less, so use j,k,u,d to navigate, / to search, and q to close!

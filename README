@@ -1,0 +1,10 @@
+Hey. This is a game with a working title of Esoteric File Management Game. First, run 'ls' in your terminal to see what else is here. 
+For any command given to you in this journey, omit the quotes: 'ls' => ls
+
+If you come across a file ending with .sh, for example hello.sh, you can run it with './hello.sh'
+Most files will also support a help flag, so you can run `./hello.sh --help` as well
+
+If that doesn't work, you may need to run 'chmod +x hello.sh' to give it execute permissions and then try './hello.sh' again
+
+If you get stuck during any commands, hitting escape and or ctrl c will get your terminal back. In some instances, q will be the way to exit something you have open. 
+ 

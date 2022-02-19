@@ -1,0 +1,12 @@
+environment
+
+# This should enable me to continue dev while ignoring solutions from myself and players. Annoying.
+
+# ignore and exclude stuff
+world/*
+!world/forest/
+world/forest/*
+
+# allow npc and readme in any sub dirs excluded above
+!**/README
+!**/npc.sh
